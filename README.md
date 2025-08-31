@@ -14,7 +14,7 @@ docker compose -f docker-compose.yml up --build
 1. initialize the .env file
 2. get requirements:
 ```
-go mod tidy
+go mod download 
 ```
 3. run project:
 ```
